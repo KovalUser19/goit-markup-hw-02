@@ -1,14 +1,58 @@
-.link {}
-
-.link-web {}
+:root{
+  --text-color:#434455;
+  --title-color:#2E2F42;
+}
+body{
+  font-family: 'Roboto', sans-serif;
+   color:#434455;
+}
+.list{
+  list-style-type: none;
+}
+.link{
+  text-decoration: none;
+}
+.list .link:hover,
+.list .link:focus{
+  color:#404BBF;
+}
+.link-studio{
+  font-family: 'Raleway';
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.dark-link{
+ color: var(--title-color);
+}
+.wite-link{
+  color: #F4F4FD;
+}
+.link-web {
+  color: #4D5AE5;
+}
 
 .list {}
 
-.sublist {}
+.sublist {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--title-color);
+  letter-spacing: 0.02em;
+}
 
 .address {}
 
-.address-item {}
+.address-item {
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--text-color);
+  letter-spacing: 0.02em;
+  font-style: normal;
+}
 
 .main-title {}
 
@@ -65,6 +109,7 @@
 
 .cards-text {}
 
-.footer {}
-
+.footer {
+  background: #2E2F42;
+}
 .footer-text {}
