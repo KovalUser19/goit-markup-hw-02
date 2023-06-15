@@ -1,6 +1,9 @@
 :root{
   --text-color:#434455;
   --title-color:#2E2F42;
+  --bg-color:#2E2F42;
+  --color-wite:#FFFFFF;
+  --bg-team-text:#F4F4FD;
 }
 body{
   font-family: 'Roboto', sans-serif;
@@ -17,7 +20,7 @@ body{
   color:#404BBF;
 }
 .link-studio{
-  font-family: 'Raleway';
+  font-family: 'Raleway',sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
@@ -28,7 +31,7 @@ body{
  color: var(--title-color);
 }
 .wite-link{
-  color: #F4F4FD;
+  color: var(--bg-team-text);
 }
 .link-web {
   color: #4D5AE5;
@@ -53,63 +56,153 @@ body{
   letter-spacing: 0.02em;
   font-style: normal;
 }
+.hero{
+  background-color:var(--bg-color);
+}
+.main-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color:var(--color-wite);
+}
+.hero .button{
+  background-color: #4D5AE5;
+}
+.hero .button:hover,
+.hero .button:focus{
+  background-color: #404BBF;
+  cursor: pointer;
+}
 
-.main-title {}
-
-.button {}
+.button-hero{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color:var(--color-wite);
+}
 
 .feature {}
 
-.feature-title {}
+.feature-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 0.83;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
 
-.feature-text {}
+.feature-text {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em
+}
 
-.title {}
+.title {
+  text-align: center;
+}
 
-.title-doing {}
+.title-doing {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
 
 .picture {}
 
 .picture-list {}
 
-.title-team {}
+.team{
+  background-color: var(--bg-team-text);
+}
+.title-team {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--title-color);
+}
 
-.team {}
+.list-team {
+
+}
 
 .team-foto {}
 
-.team-title {}
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--title-color);
+}
 
-.team-text {}
+.team-text {
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
 
-.footer {}
+.buttons {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
 
-.footer-text {}
-.link {}
 
-.link-web {}
-
-.list {}
-
-.sublist {}
-
-.address {}
-
-.address-item {}
-
-.buttons {}
-
-.button {}
+.buttons .button:active{
+background-color: var(--bg-team-text);
+}
+.buttons .button:hover{
+background-color: #404BBF;
+color:var(--color-wite);
+}
+.buttons.button-color{
+background-color: #404BBF
+}
+.button-color{
+  color:var(--color-wite);
+}
+.button {
+}
 
 .cards {}
 
 .cards-foto {}
 
-.cards-title {}
+.cards-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--title-color);
+}
 
-.cards-text {}
+.cards-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
 
 .footer {
-  background: #2E2F42;
+  background-color: var(--bg-color);
 }
-.footer-text {}
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--bg-team-text);
+}
