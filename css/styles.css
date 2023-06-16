@@ -12,6 +12,7 @@ body{
 }
 .list{
   list-style-type: none;
+  font-style: normal;
 }
 .link{
   text-decoration: none;
@@ -49,11 +50,6 @@ body{
   color: var(--title-color);
   letter-spacing: 0.02em;
 }
-
-.list-address {
-  font-style: normal;
-}
-
 .address-item {
   font-size: 16px;
   line-height: 1.5;
@@ -196,6 +192,7 @@ color:var(--color-wite);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    color:var(--text-color);
 }
 
 .footer {
