@@ -17,8 +17,8 @@ body{
 .link{
   text-decoration: none;
 }
-.list .link:hover,
-.list .link:focus{
+.link:hover,
+.link:focus{
   color:#404BBF;
 }
 .link-studio{
