@@ -7,7 +7,8 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
-   color:#434455;
+   color:var(--text-color);
+   background-color:var(--color-wite);
 }
 .list{
   list-style-type: none;
@@ -20,12 +21,16 @@ body{
   color:#404BBF;
 }
 .link-studio{
-  font-family: 'Raleway',sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
+
+}
+.link-web{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color:#4D5AE5;
 }
 .dark-link{
  color: var(--title-color);
@@ -33,9 +38,7 @@ body{
 .wite-link{
   color: var(--bg-team-text);
 }
-.link-web {
-  color: #4D5AE5;
-}
+
 
 .list {}
 
@@ -47,14 +50,16 @@ body{
   letter-spacing: 0.02em;
 }
 
-.address {}
+.list-address {
+  font-style: normal;
+}
 
 .address-item {
   font-size: 16px;
   line-height: 1.5;
   color: var(--text-color);
   letter-spacing: 0.02em;
-  font-style: normal;
+
 }
 .hero{
   background-color:var(--bg-color);
@@ -80,6 +85,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
     color:var(--color-wite);
 }
 
@@ -88,7 +94,7 @@ body{
 .feature-title {
     font-weight: 500;
     font-size: 20px;
-    line-height: 0.83;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--title-color);
 }
@@ -128,6 +134,9 @@ body{
     color: var(--title-color);
 }
 
+.item{
+  background: #FFFFFF;
+}
 .list-team {
 
 }
@@ -150,7 +159,7 @@ body{
     letter-spacing: 0.02em;
 }
 
-.buttons {
+.buttons-button{
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -158,23 +167,16 @@ body{
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
+    background-color: #F4F4FD;
     cursor: pointer;
 }
 
-
-.buttons .button:active{
-background-color: var(--bg-team-text);
-}
-.buttons .button:hover{
+.buttons-button:hover,
+.buttons-button:focus{
 background-color: #404BBF;
 color:var(--color-wite);
 }
-.buttons.button-color{
-background-color: #404BBF
-}
-.button-color{
-  color:var(--color-wite);
-}
+
 .button {
 }
 
